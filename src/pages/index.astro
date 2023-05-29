@@ -1,14 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Logo from "../components/Logo.astro";
 import SvelteInput from "../components/SvelteInput.svelte";
 import ReactInput from "../components/ReactInput.tsx";
 import VueInput from "../components/VueInput.vue";
 import VanillaInput from "../components/VanillaInput.astro";
+import "../styles/global.css";
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
+    <Logo />
     <VanillaInput />
     <ReactInput client:only="react" />
     <SvelteInput client:only="svelte" />
@@ -17,5 +19,8 @@ import VanillaInput from "../components/VanillaInput.astro";
 </Layout>
 
 <style>
+  main {
+    margin-top: 150px;
+  }
 </style>
 

@@ -1,5 +1,5 @@
 {
-  "name": "astro-frameworks-collaboration",
+  "name": "astro-nanostores-collaboration",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -14,7 +14,6 @@
     "@astrojs/svelte": "^2.2.0",
     "@astrojs/vue": "^2.2.0",
     "@liveblocks/client": "^1.0.12",
-    "@liveblocks/react": "^1.0.12",
     "@nanostores/react": "^0.7.1",
     "@nanostores/vue": "^0.8.2",
     "@types/react": "^18.2.7",
