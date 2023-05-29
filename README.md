@@ -1,3 +1,5 @@
+https://github.com/CTNicholas/astro-nanostores-collaboration/assets/33033422/72aa5c55-e3d4-41d2-8898-3b36fb5730ef
+
 ## Nano Stores + Astro + Liveblocks demo
 
 This demo shows you how to make a [Nano Stores](https://github.com/nanostores/nanostores) store collaborative with [Liveblocks](https://liveblocks.io/) in [Astro](https://astro.build).
