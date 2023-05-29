@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Logo from "../components/Logo.astro";
+import LiveblocksLogo from "../components/LiveblocksLogo.astro";
 import SvelteInput from "../components/SvelteInput.svelte";
 import ReactInput from "../components/ReactInput.tsx";
 import VueInput from "../components/VueInput.vue";
@@ -10,7 +10,7 @@ import "../styles/global.css";
 
 <Layout title="Welcome to Astro.">
   <main>
-    <Logo />
+    <LiveblocksLogo />
     <VanillaInput />
     <ReactInput client:only="react" />
     <SvelteInput client:only="svelte" />
@@ -20,7 +20,11 @@ import "../styles/global.css";
 
 <style>
   main {
-    margin-top: 150px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 </style>
 
