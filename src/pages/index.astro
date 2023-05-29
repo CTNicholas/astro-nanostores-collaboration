@@ -4,12 +4,14 @@ import Card from '../components/Card.astro';
 import SvelteInput from "../components/SvelteInput.svelte";
 import ReactInput from "../components/ReactInput.tsx";
 import VueInput from "../components/VueInput.vue";
+import VanillaInput from "../components/VanillaInput.astro";
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
-    <SvelteInput client:only="svelte" />
+    <VanillaInput />
     <ReactInput client:only="react" />
+    <SvelteInput client:only="svelte" />
     <VueInput client:only="vue" />
   </main>
 </Layout>

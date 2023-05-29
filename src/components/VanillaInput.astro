@@ -1,0 +1,21 @@
+<script>
+  import { inputValue, setInputValue } from "../store.js";
+
+  const input = document.querySelector("#vanilla");
+
+  inputValue.subscribe((newValue) => {
+    input.value = newValue;
+  });
+
+  input.addEventListener("input", (e) => {
+    setInputValue(e.target.value);
+  });
+</script>
+
+<div>
+  <label for="vanilla">Vanilla</label>
+  <input
+    id="vanilla"
+    type="text"
+  />
+</div>

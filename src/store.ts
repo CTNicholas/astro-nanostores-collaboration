@@ -9,6 +9,17 @@ const room: TypedRoom = client.enter("my-room", {
 let storage: RootStorage;
 initStorage();
 
+export const inputValue = atom<string>("");
+
+export function setInputValue(newValue: string) {
+  if (!storage) {
+    return;
+  }
+
+  storage.set("inputValue", newValue);
+}
+
+
 async function initStorage() {
   const { root } = await room.getStorage();
   storage = root;
@@ -20,12 +31,3 @@ async function initStorage() {
   });
 }
 
-export const inputValue = atom<string>("");
-
-export function setInputValue(newValue: string) {
-  if (!storage) {
-    return;
-  }
-
-  storage.set("inputValue", newValue);
-}
