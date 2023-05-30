@@ -1,4 +1,4 @@
-https://github.com/CTNicholas/astro-nanostores-collaboration/assets/33033422/72aa5c55-e3d4-41d2-8898-3b36fb5730ef
+https://github.com/CTNicholas/astro-nanostores-collaboration/assets/33033422/13803936-eec8-4a2c-9077-8b1b14b839aa
 
 ## Nano Stores + Astro + Liveblocks demo
 
